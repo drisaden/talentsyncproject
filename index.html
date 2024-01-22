@@ -20,7 +20,7 @@
 
 <body>
 <header class="mt-0 pt-5 pb-20 bg-center bg-no-repeat h-screen bg-blend-overlay" style="background: url('./assets/images/bg.png'); backdrop-filter: overlay;">
-<div class="absolute -mt-5 h-screen bg-white w-full bg-gradient-to-t from-white to-transparent opacity-95 -z-40">
+<div class="absolute -mt-5 h-screen bg-white w-full bg-gradient-to-t from-white to-transparent opacity-95 -z-50">
 <nav class="z-50 bg-gray-200 md:rounded-full w-fit md:flex md:align-center md:justify-evenly md:mx-20 md:my-10 border-gray-200 dark:bg-gray-200 bg-gray-200">
   <div class="flex flex-wrap p-4 ml-6 mr-10">
     <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -143,7 +143,7 @@
     </div>
   </div>
 </nav>
-<div class="hero my-20 mx-20">
+<div class="z-40 hero my-20 mx-20">
   <div class="block md:flex justify-evenly align-center">
     <div class="flex flex-col w-2/4">
       <h3 class="md:text-4xl my-3 font-extrabold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h3>
@@ -217,7 +217,8 @@
 </div>
 </header>
 
-  <main class="sm:px-10 w-full md:w-10/12 mx-auto">
+  <main class="">
+    <div class="sm:px-10 w-full md:w-9/12 mx-auto">
     <div class="mx-20">
       <div class="text-center my-20 mb-32">
         <h4 class="text-sm text-gray-700">Lorem ipsum dolor sit.</h4>
@@ -280,9 +281,11 @@
         </div>
       </div>
    
-    
+    </div>
+  </div>
 <!--brand testimonial section start-->
-<div id="default-carousel" class="relative w-full my-20 mt-20" data-carousel="slide">
+<div class="bg-gray-100 flex justify-center align-center px-20">
+<div id="default-carousel" class="py-10 md:w-9/12 relative w-full my-20 mt-20" data-carousel="slide">
   <!-- Carousel wrapper -->
   <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
        <!-- Item 1 -->
@@ -698,7 +701,7 @@
   </div>
 
   <!-- Slider indicators -->
-  <div class="bg-gray-300 absolute z-30 flex -translate-x-1/2 bottom-20 left-1/2 space-x-3 rtl:space-x-reverse">
+  <div class="mb-5 absolute z-30 flex -translate-x-1/2 bottom-20 left-1/2 space-x-3 rtl:space-x-reverse">
       <button type="button" class="w-3 h-3 rounded-full bg-blue-700 aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
       <button type="button" class="w-3 h-3 rounded-full bg-blue-700 aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
       <button type="button" class="w-3 h-3 rounded-full bg-blue-700 aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
@@ -724,7 +727,10 @@
   </button>
 </div>
 </div>
+</div>
 <!--brand testimonial section end-->
+<div class="sm:px-10 w-full md:w-9/12 mx-auto">
+<div class="mx-20">
 
 <!--faq section starts-->
 <div class="flex justify-between align-center my-10">
@@ -737,34 +743,6 @@
       </div>
   </div>
   <div class="w-full md:w-2/4">
-
-    <!-- <div class="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" checked="checked" /> 
-  <div class="collapse-title text-xl font-medium">
-    Click to open this one and close others
-  </div>
-  <div class="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
-<div class="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" /> 
-  <div class="collapse-title text-xl font-medium">
-    Click to open this one and close others
-  </div>
-  <div class="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
-<div class="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" /> 
-  <div class="collapse-title text-xl font-medium">
-    Click to open this one and close others
-  </div>
-  <div class="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div> -->
 
     <div id="accordion-collapse" data-accordion="collapse">
       <h2 id="accordion-collapse-heading-1">
@@ -861,7 +839,8 @@
   
 </div>
 <!--final cta section end-->
-
+</div>
+</div>
   </main>
 <!--  main content ends-->
 
