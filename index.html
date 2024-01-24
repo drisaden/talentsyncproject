@@ -22,18 +22,19 @@
 <body>
 <header class="mt-0 pt-5 pb-20 bg-center bg-no-repeat h-screen bg-blend-overlay" style="background: url('./assets/images/bg.png'); backdrop-filter: overlay;">
 <div class="absolute -mt-5 h-screen bg-white w-full bg-gradient-to-t from-white to-transparent opacity-95 -z-50">
-<nav class="z-50 bg-gray-200 md:rounded-full w-fit md:flex md:align-center md:justify-evenly md:mx-20 md:my-10 border-gray-200 dark:bg-gray-200 bg-gray-200">
-  <div class="flex flex-wrap p-4 ml-6 mr-10">
+<nav class="z-50 bg-gray-200 md:rounded-full w-fit flex md:align-center justify-between md:justify-evenly md:mx-20 md:my-10 border-gray-200 dark:bg-gray-200 bg-gray-200">
+  <div class="flex justify-between flex-wrap p-4 md:ml-6 md:mr-10">
     <a href="#" class="flex items-center space-x-2 rtl:space-x-reverse">
       <img src="./assets/images/logo.png" class="h-8" alt="ClearLink Logo" />
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ClearLink<span class="text-blue-600">.</span></span>
     </a>
-    <div class="flex md:order-2 space-x-3 rtl:space-x-reverse">
+    
+    <div class="flex justify-between md:order-2 space-x-3 rtl:space-x-reverse">
       <button type="button"
-        class="text-black bg-gray-300 hover:bg-gray-200 hover:text-black focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-full text-sm px-4 py-2 text-center dark:bg-gray-300 dark:hover:bg-gray-100 dark:focus:ring-gray-300">Talk
+        class="hidden md:block text-black bg-gray-300 hover:bg-gray-200 hover:text-black focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-full text-sm px-4 py-2 text-center dark:bg-gray-300 dark:hover:bg-gray-100 dark:focus:ring-gray-300">Talk
         to sales</button>
       <button type="button"
-        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign
+        class="hidden md:block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign
         up for free</button>
       <button data-collapse-toggle="navbar-cta" type="button"
         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -45,7 +46,6 @@
         </svg>
       </button>
     </div>
-    
     <div class="md:mx-32 items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
       <ul
         class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:justify-evenly dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
@@ -145,6 +145,8 @@
     </div>
   </div>
 </nav>
+
+
 <div class="z-40 hero m-5 md:m-20">
   <div class="block md:flex justify-evenly align-center">
     <div class="flex flex-col w-full  md:w-2/4">
